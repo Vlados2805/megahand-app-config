@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "version": 1,
+  "updated_at": "2026-08-20T23:50:00+03:00",
+  "features": { "stores": true, "favorites": true, "notifications": true, "banners": true },
+  "banners": [],
+  "push": []
+}
