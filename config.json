@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 2,
-  "updated_at": "2026-08-23T16:54:41.867Z",
+  "version": 3,
+  "updated_at": "2026-08-23T21:08:42.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -11,11 +11,11 @@
   "banners": [],
   "push": [
     {
-      "id": "p1787504081867",
+      "id": "p-2026-08-24-night-test",
       "title": "Тест канала 0.9",
       "body": "Если вы видите это уведомление — канал работает",
       "deeplink": "",
-      "published_at": "2026-08-23T16:54:41.867Z"
+      "published_at": "2026-08-23T21:08:42.000Z"
     }
   ]
 }
