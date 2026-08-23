@@ -1,8 +1,21 @@
 {
   "schema": 1,
-  "version": 1,
-  "updated_at": "2026-08-20T23:50:00+03:00",
-  "features": { "stores": true, "favorites": true, "notifications": true, "banners": true },
+  "version": 2,
+  "updated_at": "2026-08-23T16:54:41.867Z",
+  "features": {
+    "stores": true,
+    "favorites": true,
+    "notifications": true,
+    "banners": true
+  },
   "banners": [],
-  "push": []
+  "push": [
+    {
+      "id": "p1787504081867",
+      "title": "Тест канала 0.9",
+      "body": "Если вы видите это уведомление — канал работает",
+      "deeplink": "",
+      "published_at": "2026-08-23T16:54:41.867Z"
+    }
+  ]
 }
