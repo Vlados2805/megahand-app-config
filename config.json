@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 10,
-  "updated_at": "2026-08-25T14:45:46.406Z",
+  "version": 11,
+  "updated_at": "2026-08-25T14:46:31.832Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -14,6 +14,13 @@
       "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
       "title": "Осенний завоз",
       "deeplink": "megahand://categories",
+      "placement": "carousel"
+    },
+    {
+      "id": "bmt8s2uw5c0ht",
+      "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
+      "title": "От 500",
+      "deeplink": "megahand://feed?new=1&max_price=500",
       "placement": "carousel"
     }
   ],
