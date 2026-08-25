@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 6,
-  "updated_at": "2026-08-25T03:41:56.921Z",
+  "version": 7,
+  "updated_at": "2026-08-25T03:45:13.742Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -10,6 +10,13 @@
   },
   "banners": [],
   "push": [
+    {
+      "id": "p1787629513742",
+      "title": "111",
+      "body": "111",
+      "deeplink": "megahand://home",
+      "published_at": "2026-08-25T03:45:13.742Z"
+    },
     {
       "id": "p1787629316921",
       "title": "Привет, спишь?",
