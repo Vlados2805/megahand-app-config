@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 8,
-  "updated_at": "2026-08-25T04:04:28.745Z",
+  "version": 9,
+  "updated_at": "2026-08-25T04:09:22.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -42,7 +42,7 @@
       "id": "p-2026-08-24-home",
       "title": "В приложении появилась Главная",
       "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
-      "deeplink": "megahand://catalog",
+      "deeplink": "megahand://home",
       "published_at": "2026-08-23T22:35:22.000Z"
     }
   ]
