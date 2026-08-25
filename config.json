@@ -1,49 +1,48 @@
 {
   "schema": 1,
-  "version": 9,
-  "updated_at": "2026-08-25T04:09:22.000Z",
+  "version": 10,
+  "updated_at": "2026-08-25T14:30:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
     "notifications": true,
     "banners": true
   },
-  "banners": [],
-  "push": [
+  "banners": [
     {
-      "id": "p1787630668745",
-      "title": "Привет, спишь?",
-      "body": "У нас тут первый пуш в приложении 😏",
-      "deeplink": "",
-      "published_at": "2026-08-25T04:04:28.745Z"
+      "id": "qa-carousel-1",
+      "image_url": "https://s3.twcstorage.ru/megahand-storage/items/260824209/1-17323b2e-5b1d-4800-a114-368ecec1e08d-IMG_9255.JPG",
+      "title": "Новинки недели",
+      "deeplink": "megahand://feed?new=1&title=Новинки",
+      "placement": "carousel"
     },
     {
-      "id": "p1787629513742",
-      "title": "111",
-      "body": "111",
-      "deeplink": "megahand://home",
-      "published_at": "2026-08-25T03:45:13.742Z"
-    },
-    {
-      "id": "p1787629316921",
-      "title": "Привет, спишь?",
-      "body": "У нас новый завоз) вперед😏",
-      "deeplink": "",
-      "published_at": "2026-08-25T03:41:56.921Z"
-    },
-    {
-      "id": "p-2026-08-24-night-test",
-      "title": "Тест канала 0.9",
-      "body": "Если вы видите это уведомление — канал работает",
-      "deeplink": "",
-      "published_at": "2026-08-23T21:08:42.000Z"
-    },
-    {
-      "id": "p-2026-08-24-home",
-      "title": "В приложении появилась Главная",
-      "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
-      "deeplink": "megahand://home",
-      "published_at": "2026-08-23T22:35:22.000Z"
+      "id": "qa-standalone-1",
+      "image_url": "https://s3.twcstorage.ru/megahand-storage/items/260824117/1-a3de9956-d21f-473f-a292-353578815d01-IMG_8967.JPG",
+      "title": "Обувь со скидкой",
+      "deeplink": "megahand://feed?category=8&title=Женская обувь",
+      "placement": "standalone"
     }
-  ]
+  ],
+  "push": [],
+  "home": {
+    "blocks": [
+      { "type": "banners" },
+      { "type": "promos" },
+      { "type": "categories" },
+      { "type": "shelf", "id": "new" },
+      { "type": "banner", "banner_id": "qa-standalone-1" },
+      { "type": "shelf", "id": "cheap" },
+      { "type": "shelf", "id": "jackets", "title": "Куртки", "deeplink": "megahand://feed?category=9&title=Женская одежда" },
+      { "type": "my_store" },
+      { "type": "feed" }
+    ]
+  },
+  "feeds": [
+    { "id": "all", "title": "Все", "deeplink": "" },
+    { "id": "new", "title": "Новинки", "deeplink": "megahand://feed?new=1" },
+    { "id": "cheap", "title": "До 500 ₽", "deeplink": "megahand://feed?max_price=500" },
+    { "id": "men", "title": "Мужское", "deeplink": "megahand://feed?category=11" }
+  ],
+  "badges": { "audience": true, "new": true }
 }
