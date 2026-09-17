@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 13,
-  "updated_at": "2026-09-20T10:20:00.000Z",
+  "version": 14,
+  "updated_at": "2026-09-20T10:25:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -110,7 +110,7 @@
     "new": true
   },
   "cards": {
-    "photo_aspect": "3:4",
+    "photo_aspect": "1:1",
     "photo_fit": "contain",
     "photo_bg": "#F4F4F6",
     "photo_pad": 8,
