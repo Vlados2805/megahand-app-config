@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 22,
-  "updated_at": "2026-09-22T09:45:00.000Z",
+  "version": 23,
+  "updated_at": "2026-09-22T10:00:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -71,8 +71,9 @@
       },
       {
         "type": "product",
-        "product_id": 30113,
-        "title": "Число вместо строки"
+        "product_id": "30113",
+        "title": "Вещь дня",
+        "subtitle": "скелет и карточка одной высоты"
       },
       {
         "type": "my_store"
@@ -83,6 +84,10 @@
       {
         "type": "shelf",
         "id": "new"
+      },
+      {
+        "type": "shelf",
+        "id": "cheap"
       },
       {
         "type": "feed"
