@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 39,
+  "version": 40,
   "updated_at": "2026-09-22T15:00:00.000Z",
   "features": {
     "stores": true,
@@ -71,11 +71,9 @@
       },
       {
         "type": "product",
-        "product_id": "30113",
-        "title": "Часы В",
-        "subtitle": "с 16:48 до 16:52 МСК",
-        "starts_at": "2026-09-22T16:48:00+03:00",
-        "ends_at": "2026-09-22T16:52:00+03:00"
+        "product_id": "30088",
+        "title": "Вещь дня",
+        "subtitle": "скелет в одну строку"
       },
       {
         "type": "my_store"
@@ -86,19 +84,6 @@
       {
         "type": "shelf",
         "id": "new"
-      },
-      {
-        "type": "product",
-        "product_id": "30088",
-        "title": "Вещь дня",
-        "subtitle": "скелет в одну строку"
-      },
-      {
-        "type": "picks",
-        "id": "povtor",
-        "title": "Порядок владельца",
-        "subtitle": "те же вещи",
-        "product_ids": "30090,30113,30105,30107"
       },
       {
         "type": "shelf",
