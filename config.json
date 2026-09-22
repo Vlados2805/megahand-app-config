@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 58,
- "updated_at": "2026-09-22T20:30:00Z",
+ "version": 59,
+ "updated_at": "2026-09-22T20:45:00Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -108,83 +108,13 @@
   "show_heart": true,
   "show_cart": true
  },
- "promotions": [
-  {
-   "id": "p58dve",
-   "title": "СУББОТА −50 % НА ВСЁ ДО!",
-   "subtitle": "",
-   "image_url": "",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58odna",
-   "title": "СУББОТА −50 % НА ВСЁ ДО!",
-   "subtitle": "с подписью строка одна",
-   "image_url": "",
-   "deeplink": "megahand://feed?max_price=500",
-   "tint": "yellow",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58foto",
-   "title": "Осенний завоз недели!!",
-   "subtitle": "",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "deeplink": "megahand://feed?max_price=500",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58bezssylki",
-   "title": "Скоро, готовим",
-   "subtitle": "",
-   "image_url": "",
-   "deeplink": "",
-   "tint": "green",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58red",
-   "title": "4 красная",
-   "subtitle": "пара скидки",
-   "image_url": "",
-   "deeplink": "megahand://categories",
-   "tint": "red",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58ink",
-   "title": "5 тёмная",
-   "subtitle": "пятый тинт",
-   "image_url": "",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "ink",
-   "starts_at": null,
-   "ends_at": null
-  }
- ],
+ "promotions": [],
  "announcements": [
   {
-   "id": "a58warn",
-   "text": "25 сентября магазин на Ленина закрыт на переучёт",
-   "kind": "warn",
-   "deeplink": "megahand://stores",
-   "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "a58info",
-   "text": "Второе объявление: видно после скрытия первого",
+   "id": "a59info",
+   "text": "Пустой список акций: в ряду встроенные три",
    "kind": "info",
-   "deeplink": "",
+   "deeplink": "megahand://stores",
    "dismissible": true,
    "starts_at": null,
    "ends_at": null
