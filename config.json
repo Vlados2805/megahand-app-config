@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 54,
- "updated_at": "2026-09-22T16:10:00.000Z",
+ "version": 55,
+ "updated_at": "2026-09-22T18:08:22Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -10,18 +10,40 @@
  },
  "banners": [
   {
-   "id": "bmt8s1r814h8a",
+   "id": "bAcar",
    "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "title": "Осенний завоз",
+   "title": "A карусель по сроку",
    "deeplink": "megahand://categories",
-   "placement": "carousel"
+   "placement": "carousel",
+   "starts_at": "2026-09-22T21:21:22+03:00",
+   "ends_at": "2026-09-22T21:26:22+03:00"
   },
   {
-   "id": "bmt8s2uw5c0ht",
+   "id": "bAone",
    "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
-   "title": "От 500",
-   "deeplink": "megahand://feed?new=1&max_price=500",
-   "placement": "carousel"
+   "title": "A одиночный по сроку",
+   "deeplink": "megahand://feed?new=1",
+   "placement": "standalone",
+   "starts_at": "2026-09-22T21:21:22+03:00",
+   "ends_at": "2026-09-22T21:26:22+03:00"
+  },
+  {
+   "id": "bBcar",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
+   "title": "B карусель по сроку",
+   "deeplink": "megahand://categories",
+   "placement": "carousel",
+   "starts_at": "2026-09-22T21:32:22+03:00",
+   "ends_at": "2026-09-22T21:37:22+03:00"
+  },
+  {
+   "id": "bBone",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
+   "title": "B одиночный по сроку",
+   "deeplink": "megahand://feed?new=1",
+   "placement": "standalone",
+   "starts_at": "2026-09-22T21:32:22+03:00",
+   "ends_at": "2026-09-22T21:37:22+03:00"
   }
  ],
  "push": [
@@ -70,10 +92,34 @@
     "type": "promos"
    },
    {
-    "type": "product",
-    "product_id": "30113",
-    "title": "Вещь дня",
-    "subtitle": "повторная приёмка"
+    "type": "banner",
+    "banner_id": "bAone",
+    "starts_at": null,
+    "ends_at": null
+   },
+   {
+    "type": "banner",
+    "banner_id": "bBone",
+    "starts_at": null,
+    "ends_at": null
+   },
+   {
+    "type": "picks",
+    "id": "srokA",
+    "title": "A БЛОК ПО СРОКУ",
+    "subtitle": "появился сам",
+    "product_ids": "30090,30105,30107",
+    "starts_at": "2026-09-22T21:21:22+03:00",
+    "ends_at": "2026-09-22T21:26:22+03:00"
+   },
+   {
+    "type": "picks",
+    "id": "srokB",
+    "title": "B БЛОК ПО СРОКУ",
+    "subtitle": "появился сам",
+    "product_ids": "30090,30105,30107",
+    "starts_at": "2026-09-22T21:32:22+03:00",
+    "ends_at": "2026-09-22T21:37:22+03:00"
    },
    {
     "type": "my_store"
@@ -84,13 +130,6 @@
    {
     "type": "shelf",
     "id": "new"
-   },
-   {
-    "type": "picks",
-    "id": "povtor",
-    "title": "Порядок владельца",
-    "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-    "product_ids": "30090,30081,30113,30088,30105,30107"
    },
    {
     "type": "shelf",
@@ -136,6 +175,46 @@
   "show_heart": true,
   "show_cart": true
  },
- "promotions": [],
- "announcements": []
+ "promotions": [
+  {
+   "id": "pAsrok",
+   "title": "A АКЦИЯ",
+   "subtitle": "появилась сама",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "red",
+   "starts_at": "2026-09-22T21:21:22+03:00",
+   "ends_at": "2026-09-22T21:26:22+03:00"
+  },
+  {
+   "id": "pBsrok",
+   "title": "B АКЦИЯ",
+   "subtitle": "появилась сама",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "red",
+   "starts_at": "2026-09-22T21:32:22+03:00",
+   "ends_at": "2026-09-22T21:37:22+03:00"
+  }
+ ],
+ "announcements": [
+  {
+   "id": "aAsrok",
+   "text": "A ОБЪЯВЛЕНИЕ ПО СРОКУ: появилось само",
+   "kind": "sale",
+   "deeplink": "",
+   "dismissible": true,
+   "starts_at": "2026-09-22T21:21:22+03:00",
+   "ends_at": "2026-09-22T21:26:22+03:00"
+  },
+  {
+   "id": "aBsrok",
+   "text": "B ОБЪЯВЛЕНИЕ ПО СРОКУ: появилось само",
+   "kind": "sale",
+   "deeplink": "",
+   "dismissible": true,
+   "starts_at": "2026-09-22T21:32:22+03:00",
+   "ends_at": "2026-09-22T21:37:22+03:00"
+  }
+ ]
 }
