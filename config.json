@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 59,
- "updated_at": "2026-09-22T20:45:00Z",
+ "version": 60,
+ "updated_at": "2026-09-22T20:28:24Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -10,18 +10,22 @@
  },
  "banners": [
   {
-   "id": "bmt8s1r814h8a",
+   "id": "b60car",
    "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "title": "Осенний завоз",
+   "title": "Баннер карусели по сроку",
    "deeplink": "megahand://categories",
-   "placement": "carousel"
+   "placement": "carousel",
+   "starts_at": "2026-09-22T23:34:24+03:00",
+   "ends_at": "2026-09-22T23:38:24+03:00"
   },
   {
-   "id": "bmt8s2uw5c0ht",
+   "id": "b60one",
    "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
-   "title": "От 500",
-   "deeplink": "megahand://feed?new=1&max_price=500",
-   "placement": "carousel"
+   "title": "Одиночный баннер по сроку",
+   "deeplink": "megahand://feed?new=1",
+   "placement": "standalone",
+   "starts_at": "2026-09-22T23:34:24+03:00",
+   "ends_at": "2026-09-22T23:38:24+03:00"
   }
  ],
  "push": [
@@ -40,6 +44,21 @@
    },
    {
     "type": "promos"
+   },
+   {
+    "type": "banner",
+    "banner_id": "b60one",
+    "starts_at": null,
+    "ends_at": null
+   },
+   {
+    "type": "picks",
+    "id": "srok60",
+    "title": "БЛОК ПО СРОКУ",
+    "subtitle": "появился сам",
+    "product_ids": "30090,30105,30107",
+    "starts_at": "2026-09-22T23:34:24+03:00",
+    "ends_at": "2026-09-22T23:38:24+03:00"
    },
    {
     "type": "product",
@@ -61,8 +80,8 @@
     "type": "picks",
     "id": "povtor",
     "title": "Порядок владельца",
-    "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-    "product_ids": "30090,30081,30113,30088,30105,30107"
+    "subtitle": "30090, 30113, 30088",
+    "product_ids": "30090,30113,30088,30105,30107"
    },
    {
     "type": "shelf",
@@ -108,16 +127,27 @@
   "show_heart": true,
   "show_cart": true
  },
- "promotions": [],
+ "promotions": [
+  {
+   "id": "p60srok",
+   "title": "АКЦИЯ ПО СРОКУ",
+   "subtitle": "",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "red",
+   "starts_at": "2026-09-22T23:34:24+03:00",
+   "ends_at": "2026-09-22T23:38:24+03:00"
+  }
+ ],
  "announcements": [
   {
-   "id": "a59info",
-   "text": "Пустой список акций: в ряду встроенные три",
-   "kind": "info",
-   "deeplink": "megahand://stores",
+   "id": "a60srok",
+   "text": "ОБЪЯВЛЕНИЕ ПО СРОКУ: появилось само",
+   "kind": "sale",
+   "deeplink": "",
    "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
+   "starts_at": "2026-09-22T23:34:24+03:00",
+   "ends_at": "2026-09-22T23:38:24+03:00"
   }
  ]
 }
