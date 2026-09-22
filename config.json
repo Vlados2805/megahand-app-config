@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 51,
- "updated_at": "2026-09-22T16:00:00.000Z",
+ "version": 52,
+ "updated_at": "2026-09-22T15:55:00.000Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -138,100 +138,40 @@
  },
  "promotions": [
   {
-   "id": "p45dup",
-   "title": "1 повтор id",
-   "subtitle": "мусор в цвете",
-   "image_url": "",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "фиолетовый в крапинку",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p45badlink",
-   "title": "2 мусор в ссылке",
-   "subtitle": "плитки быть не должно",
-   "image_url": "",
-   "deeplink": "хттп:/ляляля??",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p45nazad",
-   "title": "3 срок задом наперёд",
-   "subtitle": "конец раньше начала",
-   "image_url": "",
-   "deeplink": "megahand://stores",
-   "tint": "red",
-   "starts_at": "2026-12-31T00:00:00+03:00",
-   "ends_at": "2026-01-01T00:00:00+03:00"
-  },
-  {
-   "id": "P45DUP",
-   "title": "4 тот же id другим регистром",
-   "subtitle": "",
-   "image_url": "",
-   "deeplink": "megahand://categories",
-   "tint": "green",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p45data",
-   "title": "5 мусор в дате",
-   "subtitle": "вчера позавчера",
+   "id": "p44a",
+   "title": "Летняя распродажа",
+   "subtitle": "закончилась",
    "image_url": "",
    "deeplink": "megahand://feed?max_price=500",
-   "tint": "ink",
-   "starts_at": "вчера",
-   "ends_at": "позавчера"
+   "tint": "green",
+   "starts_at": "2026-06-01T00:00:00+03:00",
+   "ends_at": "2026-09-01T00:00:00+03:00"
   },
   {
-   "id": "p45http",
-   "title": "6 картинка по http",
-   "subtitle": "остаётся градиент",
-   "image_url": "http://example.invalid/kartinka.jpg",
-   "deeplink": "megahand://stores",
-   "tint": "yellow",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p45dlinnyy",
-   "title": "7 очень длинный заголовок который не влезает в плитку никак",
-   "subtitle": "и подпись тоже очень длинная, она обязана обрезаться по тридцати двум знакам",
-   "image_url": "",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p45pusto",
-   "title": "   ",
-   "subtitle": "заголовка нет",
+   "id": "p44b",
+   "title": "День города",
+   "subtitle": "один день",
    "image_url": "",
    "deeplink": "megahand://stores",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
+   "tint": "red",
+   "starts_at": "2026-08-30T00:00:00+03:00",
+   "ends_at": "2026-08-31T00:00:00+03:00"
   },
   {
-   "id": "p45devyataya",
-   "title": "9 ДЕВЯТАЯ ЗА ПРЕДЕЛОМ",
-   "subtitle": "её быть не должно",
+   "id": "p44c",
+   "title": "Ещё не началась",
+   "subtitle": "в декабре",
    "image_url": "",
    "deeplink": "megahand://categories",
-   "tint": "red",
-   "starts_at": null,
-   "ends_at": null
+   "tint": "ink",
+   "starts_at": "2026-12-01T00:00:00+03:00",
+   "ends_at": "2026-12-31T00:00:00+03:00"
   }
  ],
  "announcements": [
   {
-   "id": "a45pusto",
-   "text": "   ",
+   "id": "a42warn",
+   "text": "25 сентября магазин на Ленина закрыт на переучёт",
    "kind": "warn",
    "deeplink": "megahand://stores",
    "dismissible": true,
@@ -239,19 +179,10 @@
    "ends_at": null
   },
   {
-   "id": "a45nazad",
-   "text": "Объявление со сроком задом наперёд",
-   "kind": "фиолетовое",
-   "deeplink": "не ссылка вовсе",
-   "dismissible": true,
-   "starts_at": "2026-12-31T00:00:00+03:00",
-   "ends_at": "2026-01-01T00:00:00+03:00"
-  },
-  {
-   "id": "a45zhivoe",
-   "text": "ЗЛОЙ ФАЙЛ: приложение живо, полоса на месте",
-   "kind": "мусор",
-   "deeplink": "не ссылка вовсе",
+   "id": "a44zhivoe",
+   "text": "Третье объявление: скрытое первым не вернулось",
+   "kind": "info",
+   "deeplink": "",
    "dismissible": true,
    "starts_at": null,
    "ends_at": null
