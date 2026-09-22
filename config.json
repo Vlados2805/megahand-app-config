@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 35,
-  "updated_at": "2026-09-22T11:28:51.000Z",
+  "version": 36,
+  "updated_at": "2026-09-22T15:00:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -73,7 +73,7 @@
         "type": "product",
         "product_id": "30113",
         "title": "Вещь дня",
-        "subtitle": "сегодня дешевле"
+        "subtitle": "повторная приёмка"
       },
       {
         "type": "my_store"
@@ -84,6 +84,13 @@
       {
         "type": "shelf",
         "id": "new"
+      },
+      {
+        "type": "picks",
+        "id": "povtor",
+        "title": "Порядок владельца",
+        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
+        "product_ids": "30090,30081,30113,30088,30105,30107"
       },
       {
         "type": "shelf",
