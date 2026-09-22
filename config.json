@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 24,
-  "updated_at": "2026-09-22T10:10:00.000Z",
+  "version": 25,
+  "updated_at": "2026-09-22T10:15:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -73,13 +73,7 @@
         "type": "product",
         "product_id": "30113",
         "title": "Вещь дня",
-        "subtitle": "первый одинаковый"
-      },
-      {
-        "type": "product",
-        "product_id": "30113",
-        "title": "Вещь дня ДВАЖДЫ",
-        "subtitle": "второй одинаковый"
+        "subtitle": "сегодня дешевле"
       },
       {
         "type": "my_store"
@@ -88,22 +82,12 @@
         "type": "categories"
       },
       {
-        "type": "picks",
-        "id": "dubl",
-        "title": "Подборка",
-        "subtitle": "первая",
-        "product_ids": "30090,30105"
-      },
-      {
-        "type": "picks",
-        "id": "dubl",
-        "title": "Подборка ДВАЖДЫ",
-        "subtitle": "вторая",
-        "product_ids": "30107,30088"
+        "type": "shelf",
+        "id": "new"
       },
       {
         "type": "shelf",
-        "id": "new"
+        "id": "cheap"
       },
       {
         "type": "feed"
