@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 27,
+  "version": 28,
   "updated_at": "2026-09-22T10:11:55.000Z",
   "features": {
     "stores": true,
@@ -71,9 +71,9 @@
       },
       {
         "type": "product",
-        "product_id": "30113",
+        "product_id": "30081",
         "title": "Вещь дня",
-        "subtitle": "сегодня дешевле"
+        "subtitle": "этой вещи уже нет"
       },
       {
         "type": "my_store"
