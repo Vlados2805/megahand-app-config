@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 28,
-  "updated_at": "2026-09-22T10:11:55.000Z",
+  "version": 29,
+  "updated_at": "2026-09-22T10:25:48.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -70,12 +70,6 @@
         "type": "promos"
       },
       {
-        "type": "product",
-        "product_id": "30081",
-        "title": "Вещь дня",
-        "subtitle": "этой вещи уже нет"
-      },
-      {
         "type": "my_store"
       },
       {
@@ -84,6 +78,19 @@
       {
         "type": "shelf",
         "id": "new"
+      },
+      {
+        "type": "product",
+        "product_id": "30113",
+        "title": "Вещь дня",
+        "subtitle": "после полки «Новинки»"
+      },
+      {
+        "type": "picks",
+        "id": "priemka",
+        "title": "Порядок владельца",
+        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
+        "product_ids": "30090,30081,30113,30088,30105,30107"
       },
       {
         "type": "shelf",
