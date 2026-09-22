@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 55,
- "updated_at": "2026-09-22T18:08:22Z",
+ "version": 56,
+ "updated_at": "2026-09-22T18:38:00Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -15,8 +15,8 @@
    "title": "A карусель по сроку",
    "deeplink": "megahand://categories",
    "placement": "carousel",
-   "starts_at": "2026-09-22T21:21:22+03:00",
-   "ends_at": "2026-09-22T21:26:22+03:00"
+   "starts_at": "2026-09-22T21:51:00+03:00",
+   "ends_at": "2026-09-22T21:56:00+03:00"
   },
   {
    "id": "bAone",
@@ -24,8 +24,8 @@
    "title": "A одиночный по сроку",
    "deeplink": "megahand://feed?new=1",
    "placement": "standalone",
-   "starts_at": "2026-09-22T21:21:22+03:00",
-   "ends_at": "2026-09-22T21:26:22+03:00"
+   "starts_at": "2026-09-22T21:51:00+03:00",
+   "ends_at": "2026-09-22T21:56:00+03:00"
   },
   {
    "id": "bBcar",
@@ -33,8 +33,8 @@
    "title": "B карусель по сроку",
    "deeplink": "megahand://categories",
    "placement": "carousel",
-   "starts_at": "2026-09-22T21:32:22+03:00",
-   "ends_at": "2026-09-22T21:37:22+03:00"
+   "starts_at": "2026-09-22T22:04:00+03:00",
+   "ends_at": "2026-09-22T22:09:00+03:00"
   },
   {
    "id": "bBone",
@@ -42,8 +42,8 @@
    "title": "B одиночный по сроку",
    "deeplink": "megahand://feed?new=1",
    "placement": "standalone",
-   "starts_at": "2026-09-22T21:32:22+03:00",
-   "ends_at": "2026-09-22T21:37:22+03:00"
+   "starts_at": "2026-09-22T22:04:00+03:00",
+   "ends_at": "2026-09-22T22:09:00+03:00"
   }
  ],
  "push": [
@@ -109,8 +109,8 @@
     "title": "A БЛОК ПО СРОКУ",
     "subtitle": "появился сам",
     "product_ids": "30090,30105,30107",
-    "starts_at": "2026-09-22T21:21:22+03:00",
-    "ends_at": "2026-09-22T21:26:22+03:00"
+    "starts_at": "2026-09-22T21:51:00+03:00",
+    "ends_at": "2026-09-22T21:56:00+03:00"
    },
    {
     "type": "picks",
@@ -118,8 +118,8 @@
     "title": "B БЛОК ПО СРОКУ",
     "subtitle": "появился сам",
     "product_ids": "30090,30105,30107",
-    "starts_at": "2026-09-22T21:32:22+03:00",
-    "ends_at": "2026-09-22T21:37:22+03:00"
+    "starts_at": "2026-09-22T22:04:00+03:00",
+    "ends_at": "2026-09-22T22:09:00+03:00"
    },
    {
     "type": "my_store"
@@ -183,8 +183,8 @@
    "image_url": "",
    "deeplink": "megahand://stores",
    "tint": "red",
-   "starts_at": "2026-09-22T21:21:22+03:00",
-   "ends_at": "2026-09-22T21:26:22+03:00"
+   "starts_at": "2026-09-22T21:51:00+03:00",
+   "ends_at": "2026-09-22T21:56:00+03:00"
   },
   {
    "id": "pBsrok",
@@ -193,8 +193,8 @@
    "image_url": "",
    "deeplink": "megahand://stores",
    "tint": "red",
-   "starts_at": "2026-09-22T21:32:22+03:00",
-   "ends_at": "2026-09-22T21:37:22+03:00"
+   "starts_at": "2026-09-22T22:04:00+03:00",
+   "ends_at": "2026-09-22T22:09:00+03:00"
   }
  ],
  "announcements": [
@@ -204,8 +204,8 @@
    "kind": "sale",
    "deeplink": "",
    "dismissible": true,
-   "starts_at": "2026-09-22T21:21:22+03:00",
-   "ends_at": "2026-09-22T21:26:22+03:00"
+   "starts_at": "2026-09-22T21:51:00+03:00",
+   "ends_at": "2026-09-22T21:56:00+03:00"
   },
   {
    "id": "aBsrok",
@@ -213,8 +213,8 @@
    "kind": "sale",
    "deeplink": "",
    "dismissible": true,
-   "starts_at": "2026-09-22T21:32:22+03:00",
-   "ends_at": "2026-09-22T21:37:22+03:00"
+   "starts_at": "2026-09-22T22:04:00+03:00",
+   "ends_at": "2026-09-22T22:09:00+03:00"
   }
  ]
 }
