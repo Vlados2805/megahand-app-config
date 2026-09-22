@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 32,
-  "updated_at": "2026-09-22T10:25:48.000Z",
+  "version": 33,
+  "updated_at": "2026-09-22T11:02:32.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -71,14 +71,35 @@
       },
       {
         "type": "product",
-        "product_id": 30113,
-        "title": "Число вместо строки"
+        "product_id": "30113",
+        "title": "Вещь дня",
+        "subtitle": "первый одинаковый"
+      },
+      {
+        "type": "product",
+        "product_id": "30113",
+        "title": "Вещь дня ДВАЖДЫ",
+        "subtitle": "второй одинаковый"
       },
       {
         "type": "my_store"
       },
       {
         "type": "categories"
+      },
+      {
+        "type": "picks",
+        "id": "dubl",
+        "title": "Подборка",
+        "subtitle": "первая",
+        "product_ids": "30090,30105"
+      },
+      {
+        "type": "picks",
+        "id": "dubl",
+        "title": "Подборка ДВАЖДЫ",
+        "subtitle": "вторая",
+        "product_ids": "30107,30088"
       },
       {
         "type": "shelf",
