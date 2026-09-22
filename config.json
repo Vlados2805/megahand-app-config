@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 34,
+  "version": 35,
   "updated_at": "2026-09-22T11:28:51.000Z",
   "features": {
     "stores": true,
@@ -70,6 +70,12 @@
         "type": "promos"
       },
       {
+        "type": "product",
+        "product_id": "30113",
+        "title": "Вещь дня",
+        "subtitle": "сегодня дешевле"
+      },
+      {
         "type": "my_store"
       },
       {
@@ -108,5 +114,21 @@
   "badges": {
     "audience": true,
     "new": true
-  }
+  },
+  "cards": {
+    "photo_aspect": "3:4",
+    "photo_fit": "contain",
+    "photo_bg": "#F4F4F6",
+    "photo_pad": 8,
+    "photo_radius": "chip",
+    "title_lines": 2,
+    "meta": "size",
+    "show_old_price": true,
+    "show_discount": true,
+    "show_sku": true,
+    "show_heart": true,
+    "show_cart": true
+  },
+  "promotions": [],
+  "announcements": []
 }
