@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 37,
-  "updated_at": "2026-09-22T11:02:32.000Z",
+  "version": 38,
+  "updated_at": "2026-09-22T15:00:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -73,13 +73,7 @@
         "type": "product",
         "product_id": "30113",
         "title": "Вещь дня",
-        "subtitle": "первый одинаковый"
-      },
-      {
-        "type": "product",
-        "product_id": "30113",
-        "title": "Вещь дня ДВАЖДЫ",
-        "subtitle": "второй одинаковый"
+        "subtitle": "скелет в одну строку"
       },
       {
         "type": "my_store"
@@ -88,22 +82,19 @@
         "type": "categories"
       },
       {
-        "type": "picks",
-        "id": "dubl",
-        "title": "Подборка",
-        "subtitle": "первая",
-        "product_ids": "30090,30105"
+        "type": "shelf",
+        "id": "new"
       },
       {
         "type": "picks",
-        "id": "dubl",
-        "title": "Подборка ДВАЖДЫ",
-        "subtitle": "вторая",
-        "product_ids": "30107,30088"
+        "id": "povtor",
+        "title": "Порядок владельца",
+        "subtitle": "те же вещи",
+        "product_ids": "30090,30113,30088,30105,30107"
       },
       {
         "type": "shelf",
-        "id": "new"
+        "id": "cheap"
       },
       {
         "type": "feed"
@@ -137,7 +128,7 @@
     "photo_bg": "#F4F4F6",
     "photo_pad": 8,
     "photo_radius": "chip",
-    "title_lines": 2,
+    "title_lines": 1,
     "meta": "size",
     "show_old_price": true,
     "show_discount": true,
