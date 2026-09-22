@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 46,
- "updated_at": "2026-09-22T16:05:00.000Z",
+ "version": 47,
+ "updated_at": "2026-09-22T16:10:00.000Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -70,6 +70,12 @@
     "type": "promos"
    },
    {
+    "type": "product",
+    "product_id": "30113",
+    "title": "Вещь дня",
+    "subtitle": "повторная приёмка"
+   },
+   {
     "type": "my_store"
    },
    {
@@ -78,6 +84,13 @@
    {
     "type": "shelf",
     "id": "new"
+   },
+   {
+    "type": "picks",
+    "id": "povtor",
+    "title": "Порядок владельца",
+    "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
+    "product_ids": "30090,30081,30113,30088,30105,30107"
    },
    {
     "type": "shelf",
@@ -108,5 +121,21 @@
  "badges": {
   "audience": true,
   "new": true
- }
+ },
+ "cards": {
+  "photo_aspect": "3:4",
+  "photo_fit": "contain",
+  "photo_bg": "#F4F4F6",
+  "photo_pad": 8,
+  "photo_radius": "chip",
+  "title_lines": 2,
+  "meta": "size",
+  "show_old_price": true,
+  "show_discount": true,
+  "show_sku": true,
+  "show_heart": true,
+  "show_cart": true
+ },
+ "promotions": [],
+ "announcements": []
 }
