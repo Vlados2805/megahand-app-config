@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 29,
-  "updated_at": "2026-09-22T10:25:48.000Z",
+  "version": 30,
+  "updated_at": "2026-09-22T10:45:21.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -70,6 +70,23 @@
         "type": "promos"
       },
       {
+        "type": "product",
+        "product_id": "30113",
+        "title": "Часы А",
+        "subtitle": "с 14:00 до 14:04 МСК",
+        "starts_at": "2026-09-22T14:00:00+03:00",
+        "ends_at": "2026-09-22T14:04:00+03:00"
+      },
+      {
+        "type": "picks",
+        "id": "chasy-b",
+        "title": "Часы Б",
+        "subtitle": "с 14:09 до 14:13 МСК",
+        "product_ids": "30090,30105,30107",
+        "starts_at": "2026-09-22T14:09:00+03:00",
+        "ends_at": "2026-09-22T14:13:00+03:00"
+      },
+      {
         "type": "my_store"
       },
       {
@@ -78,19 +95,6 @@
       {
         "type": "shelf",
         "id": "new"
-      },
-      {
-        "type": "product",
-        "product_id": "30113",
-        "title": "Вещь дня",
-        "subtitle": "после полки «Новинки»"
-      },
-      {
-        "type": "picks",
-        "id": "priemka",
-        "title": "Порядок владельца",
-        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-        "product_ids": "30090,30081,30113,30088,30105,30107"
       },
       {
         "type": "shelf",
