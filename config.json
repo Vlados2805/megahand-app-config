@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 61,
- "updated_at": "2026-09-22T20:40:00Z",
+ "version": 62,
+ "updated_at": "2026-09-22T21:00:00Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -110,6 +110,26 @@
  },
  "promotions": [
   {
+   "id": "p62shir",
+   "title": "ШШШШШШШШШШШШШШШШШШШШШШШШ",
+   "subtitle": "",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "green",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p62uzk",
+   "title": "iiiiiiiiiiiiiiiiiiiiiiii",
+   "subtitle": "",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "blue",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "p58dve",
    "title": "СУББОТА −50 % НА ВСЁ ДО!",
    "subtitle": "",
@@ -146,26 +166,6 @@
    "image_url": "",
    "deeplink": "",
    "tint": "green",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58red",
-   "title": "4 красная",
-   "subtitle": "пара скидки",
-   "image_url": "",
-   "deeplink": "megahand://categories",
-   "tint": "red",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58ink",
-   "title": "5 тёмная",
-   "subtitle": "пятый тинт",
-   "image_url": "",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "ink",
    "starts_at": null,
    "ends_at": null
   }
