@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 17,
-  "updated_at": "2026-09-20T10:40:00.000Z",
+  "version": 18,
+  "updated_at": "2026-09-20T10:45:00.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -71,9 +71,9 @@
       },
       {
         "type": "product",
-        "product_id": "30113",
+        "product_id": "30081",
         "title": "Вещь дня",
-        "subtitle": "сегодня дешевле"
+        "subtitle": "этой вещи уже нет"
       },
       {
         "type": "my_store"
