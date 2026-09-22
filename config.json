@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 40,
+  "version": 41,
   "updated_at": "2026-09-22T15:00:00.000Z",
   "features": {
     "stores": true,
@@ -71,9 +71,9 @@
       },
       {
         "type": "product",
-        "product_id": "30088",
+        "product_id": "30113",
         "title": "Вещь дня",
-        "subtitle": "скелет в одну строку"
+        "subtitle": "повторная приёмка"
       },
       {
         "type": "my_store"
@@ -84,6 +84,13 @@
       {
         "type": "shelf",
         "id": "new"
+      },
+      {
+        "type": "picks",
+        "id": "povtor",
+        "title": "Порядок владельца",
+        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
+        "product_ids": "30090,30081,30113,30088,30105,30107"
       },
       {
         "type": "shelf",
@@ -121,7 +128,7 @@
     "photo_bg": "#F4F4F6",
     "photo_pad": 8,
     "photo_radius": "chip",
-    "title_lines": 1,
+    "title_lines": 2,
     "meta": "size",
     "show_old_price": true,
     "show_discount": true,
