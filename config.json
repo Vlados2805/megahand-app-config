@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 57,
- "updated_at": "2026-09-22T17:10:00Z",
+ "version": 58,
+ "updated_at": "2026-09-22T20:30:00Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -31,34 +31,6 @@
    "body": "У нас тут первый пуш в приложении 😏",
    "deeplink": "",
    "published_at": "2026-08-25T04:04:28.745Z"
-  },
-  {
-   "id": "p1787629513742",
-   "title": "111",
-   "body": "111",
-   "deeplink": "megahand://home",
-   "published_at": "2026-08-25T03:45:13.742Z"
-  },
-  {
-   "id": "p1787629316921",
-   "title": "Привет, спишь?",
-   "body": "У нас новый завоз) вперед😏",
-   "deeplink": "",
-   "published_at": "2026-08-25T03:41:56.921Z"
-  },
-  {
-   "id": "p-2026-08-24-night-test",
-   "title": "Тест канала 0.9",
-   "body": "Если вы видите это уведомление — канал работает",
-   "deeplink": "",
-   "published_at": "2026-08-23T21:08:42.000Z"
-  },
-  {
-   "id": "p-2026-08-24-home",
-   "title": "В приложении появилась Главная",
-   "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
-   "deeplink": "megahand://home",
-   "published_at": "2026-08-23T22:35:22.000Z"
   }
  ],
  "home": {
@@ -138,9 +110,9 @@
  },
  "promotions": [
   {
-   "id": "p42blue",
-   "title": "1 синяя",
-   "subtitle": "первая в ряду",
+   "id": "p58dve",
+   "title": "СУББОТА −50 % НА ВСЁ ДО!",
+   "subtitle": "",
    "image_url": "",
    "deeplink": "megahand://feed?new=1",
    "tint": "blue",
@@ -148,9 +120,9 @@
    "ends_at": null
   },
   {
-   "id": "p42yellow",
-   "title": "2 жёлтая -50 %",
-   "subtitle": "по жёлтому тёмным",
+   "id": "p58odna",
+   "title": "СУББОТА −50 % НА ВСЁ ДО!",
+   "subtitle": "с подписью строка одна",
    "image_url": "",
    "deeplink": "megahand://feed?max_price=500",
    "tint": "yellow",
@@ -158,17 +130,27 @@
    "ends_at": null
   },
   {
-   "id": "p42green",
-   "title": "3 зелёная",
-   "subtitle": "третья",
+   "id": "p58foto",
+   "title": "Осенний завоз недели!!",
+   "subtitle": "",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
+   "deeplink": "megahand://feed?max_price=500",
+   "tint": "blue",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p58bezssylki",
+   "title": "Скоро, готовим",
+   "subtitle": "",
    "image_url": "",
-   "deeplink": "megahand://stores",
+   "deeplink": "",
    "tint": "green",
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "p42red",
+   "id": "p58red",
    "title": "4 красная",
    "subtitle": "пара скидки",
    "image_url": "",
@@ -178,7 +160,7 @@
    "ends_at": null
   },
   {
-   "id": "p42ink",
+   "id": "p58ink",
    "title": "5 тёмная",
    "subtitle": "пятый тинт",
    "image_url": "",
@@ -186,41 +168,11 @@
    "tint": "ink",
    "starts_at": null,
    "ends_at": null
-  },
-  {
-   "id": "p42foto",
-   "title": "6 со снимком",
-   "subtitle": "затемнение снизу",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "deeplink": "megahand://feed?max_price=500",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p42bezpodpisi",
-   "title": "7 без подписи",
-   "subtitle": "",
-   "image_url": "",
-   "deeplink": "megahand://stores",
-   "tint": "yellow",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p42bezssylki",
-   "title": "8 без ссылки",
-   "subtitle": "не нажимается",
-   "image_url": "",
-   "deeplink": "",
-   "tint": "green",
-   "starts_at": null,
-   "ends_at": null
   }
  ],
  "announcements": [
   {
-   "id": "a42warn",
+   "id": "a58warn",
    "text": "25 сентября магазин на Ленина закрыт на переучёт",
    "kind": "warn",
    "deeplink": "megahand://stores",
@@ -229,7 +181,7 @@
    "ends_at": null
   },
   {
-   "id": "a42info",
+   "id": "a58info",
    "text": "Второе объявление: видно после скрытия первого",
    "kind": "info",
    "deeplink": "",
