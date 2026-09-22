@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 36,
-  "updated_at": "2026-09-22T15:00:00.000Z",
+  "version": 37,
+  "updated_at": "2026-09-22T11:02:32.000Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -73,7 +73,13 @@
         "type": "product",
         "product_id": "30113",
         "title": "Вещь дня",
-        "subtitle": "повторная приёмка"
+        "subtitle": "первый одинаковый"
+      },
+      {
+        "type": "product",
+        "product_id": "30113",
+        "title": "Вещь дня ДВАЖДЫ",
+        "subtitle": "второй одинаковый"
       },
       {
         "type": "my_store"
@@ -82,19 +88,22 @@
         "type": "categories"
       },
       {
-        "type": "shelf",
-        "id": "new"
+        "type": "picks",
+        "id": "dubl",
+        "title": "Подборка",
+        "subtitle": "первая",
+        "product_ids": "30090,30105"
       },
       {
         "type": "picks",
-        "id": "povtor",
-        "title": "Порядок владельца",
-        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-        "product_ids": "30090,30081,30113,30088,30105,30107"
+        "id": "dubl",
+        "title": "Подборка ДВАЖДЫ",
+        "subtitle": "вторая",
+        "product_ids": "30107,30088"
       },
       {
         "type": "shelf",
-        "id": "cheap"
+        "id": "new"
       },
       {
         "type": "feed"
