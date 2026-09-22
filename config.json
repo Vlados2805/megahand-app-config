@@ -1,141 +1,241 @@
 {
-  "schema": 1,
-  "version": 41,
-  "updated_at": "2026-09-22T15:00:00.000Z",
-  "features": {
-    "stores": true,
-    "favorites": true,
-    "notifications": true,
-    "banners": true
+ "schema": 1,
+ "version": 42,
+ "updated_at": "2026-09-22T15:45:00.000Z",
+ "features": {
+  "stores": true,
+  "favorites": true,
+  "notifications": true,
+  "banners": true
+ },
+ "banners": [
+  {
+   "id": "bmt8s1r814h8a",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
+   "title": "Осенний завоз",
+   "deeplink": "megahand://categories",
+   "placement": "carousel"
   },
-  "banners": [
-    {
-      "id": "bmt8s1r814h8a",
-      "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-      "title": "Осенний завоз",
-      "deeplink": "megahand://categories",
-      "placement": "carousel"
-    },
-    {
-      "id": "bmt8s2uw5c0ht",
-      "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
-      "title": "От 500",
-      "deeplink": "megahand://feed?new=1&max_price=500",
-      "placement": "carousel"
-    }
-  ],
-  "push": [
-    {
-      "id": "p1787630668745",
-      "title": "Привет, спишь?",
-      "body": "У нас тут первый пуш в приложении 😏",
-      "deeplink": "",
-      "published_at": "2026-08-25T04:04:28.745Z"
-    },
-    {
-      "id": "p1787629513742",
-      "title": "111",
-      "body": "111",
-      "deeplink": "megahand://home",
-      "published_at": "2026-08-25T03:45:13.742Z"
-    },
-    {
-      "id": "p1787629316921",
-      "title": "Привет, спишь?",
-      "body": "У нас новый завоз) вперед😏",
-      "deeplink": "",
-      "published_at": "2026-08-25T03:41:56.921Z"
-    },
-    {
-      "id": "p-2026-08-24-night-test",
-      "title": "Тест канала 0.9",
-      "body": "Если вы видите это уведомление — канал работает",
-      "deeplink": "",
-      "published_at": "2026-08-23T21:08:42.000Z"
-    },
-    {
-      "id": "p-2026-08-24-home",
-      "title": "В приложении появилась Главная",
-      "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
-      "deeplink": "megahand://home",
-      "published_at": "2026-08-23T22:35:22.000Z"
-    }
-  ],
-  "home": {
-    "blocks": [
-      {
-        "type": "banners"
-      },
-      {
-        "type": "promos"
-      },
-      {
-        "type": "product",
-        "product_id": "30113",
-        "title": "Вещь дня",
-        "subtitle": "повторная приёмка"
-      },
-      {
-        "type": "my_store"
-      },
-      {
-        "type": "categories"
-      },
-      {
-        "type": "shelf",
-        "id": "new"
-      },
-      {
-        "type": "picks",
-        "id": "povtor",
-        "title": "Порядок владельца",
-        "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-        "product_ids": "30090,30081,30113,30088,30105,30107"
-      },
-      {
-        "type": "shelf",
-        "id": "cheap"
-      },
-      {
-        "type": "feed"
-      }
-    ]
+  {
+   "id": "bmt8s2uw5c0ht",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
+   "title": "От 500",
+   "deeplink": "megahand://feed?new=1&max_price=500",
+   "placement": "carousel"
+  }
+ ],
+ "push": [
+  {
+   "id": "p1787630668745",
+   "title": "Привет, спишь?",
+   "body": "У нас тут первый пуш в приложении 😏",
+   "deeplink": "",
+   "published_at": "2026-08-25T04:04:28.745Z"
   },
-  "feeds": [
-    {
-      "id": "all",
-      "title": "Все",
-      "deeplink": ""
-    },
-    {
-      "id": "new",
-      "title": "Новинки",
-      "deeplink": "megahand://feed?new=1"
-    },
-    {
-      "id": "cheap",
-      "title": "До 500 ₽",
-      "deeplink": "megahand://feed?max_price=500"
-    }
-  ],
-  "badges": {
-    "audience": true,
-    "new": true
+  {
+   "id": "p1787629513742",
+   "title": "111",
+   "body": "111",
+   "deeplink": "megahand://home",
+   "published_at": "2026-08-25T03:45:13.742Z"
   },
-  "cards": {
-    "photo_aspect": "3:4",
-    "photo_fit": "contain",
-    "photo_bg": "#F4F4F6",
-    "photo_pad": 8,
-    "photo_radius": "chip",
-    "title_lines": 2,
-    "meta": "size",
-    "show_old_price": true,
-    "show_discount": true,
-    "show_sku": true,
-    "show_heart": true,
-    "show_cart": true
+  {
+   "id": "p1787629316921",
+   "title": "Привет, спишь?",
+   "body": "У нас новый завоз) вперед😏",
+   "deeplink": "",
+   "published_at": "2026-08-25T03:41:56.921Z"
   },
-  "promotions": [],
-  "announcements": []
+  {
+   "id": "p-2026-08-24-night-test",
+   "title": "Тест канала 0.9",
+   "body": "Если вы видите это уведомление — канал работает",
+   "deeplink": "",
+   "published_at": "2026-08-23T21:08:42.000Z"
+  },
+  {
+   "id": "p-2026-08-24-home",
+   "title": "В приложении появилась Главная",
+   "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
+   "deeplink": "megahand://home",
+   "published_at": "2026-08-23T22:35:22.000Z"
+  }
+ ],
+ "home": {
+  "blocks": [
+   {
+    "type": "banners"
+   },
+   {
+    "type": "promos"
+   },
+   {
+    "type": "product",
+    "product_id": "30113",
+    "title": "Вещь дня",
+    "subtitle": "повторная приёмка"
+   },
+   {
+    "type": "my_store"
+   },
+   {
+    "type": "categories"
+   },
+   {
+    "type": "shelf",
+    "id": "new"
+   },
+   {
+    "type": "picks",
+    "id": "povtor",
+    "title": "Порядок владельца",
+    "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
+    "product_ids": "30090,30081,30113,30088,30105,30107"
+   },
+   {
+    "type": "shelf",
+    "id": "cheap"
+   },
+   {
+    "type": "feed"
+   }
+  ]
+ },
+ "feeds": [
+  {
+   "id": "all",
+   "title": "Все",
+   "deeplink": ""
+  },
+  {
+   "id": "new",
+   "title": "Новинки",
+   "deeplink": "megahand://feed?new=1"
+  },
+  {
+   "id": "cheap",
+   "title": "До 500 ₽",
+   "deeplink": "megahand://feed?max_price=500"
+  }
+ ],
+ "badges": {
+  "audience": true,
+  "new": true
+ },
+ "cards": {
+  "photo_aspect": "3:4",
+  "photo_fit": "contain",
+  "photo_bg": "#F4F4F6",
+  "photo_pad": 8,
+  "photo_radius": "chip",
+  "title_lines": 2,
+  "meta": "size",
+  "show_old_price": true,
+  "show_discount": true,
+  "show_sku": true,
+  "show_heart": true,
+  "show_cart": true
+ },
+ "promotions": [
+  {
+   "id": "p42blue",
+   "title": "1 синяя",
+   "subtitle": "первая в ряду",
+   "image_url": "",
+   "deeplink": "megahand://feed?new=1",
+   "tint": "blue",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42yellow",
+   "title": "2 жёлтая -50 %",
+   "subtitle": "по жёлтому тёмным",
+   "image_url": "",
+   "deeplink": "megahand://feed?max_price=500",
+   "tint": "yellow",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42green",
+   "title": "3 зелёная",
+   "subtitle": "третья",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "green",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42red",
+   "title": "4 красная",
+   "subtitle": "пара скидки",
+   "image_url": "",
+   "deeplink": "megahand://categories",
+   "tint": "red",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42ink",
+   "title": "5 тёмная",
+   "subtitle": "пятый тинт",
+   "image_url": "",
+   "deeplink": "megahand://feed?new=1",
+   "tint": "ink",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42foto",
+   "title": "6 со снимком",
+   "subtitle": "затемнение снизу",
+   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
+   "deeplink": "megahand://feed?max_price=500",
+   "tint": "blue",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42bezpodpisi",
+   "title": "7 без подписи",
+   "subtitle": "",
+   "image_url": "",
+   "deeplink": "megahand://stores",
+   "tint": "yellow",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "p42bezssylki",
+   "title": "8 без ссылки",
+   "subtitle": "не нажимается",
+   "image_url": "",
+   "deeplink": "",
+   "tint": "green",
+   "starts_at": null,
+   "ends_at": null
+  }
+ ],
+ "announcements": [
+  {
+   "id": "a42warn",
+   "text": "25 сентября магазин на Ленина закрыт на переучёт",
+   "kind": "warn",
+   "deeplink": "megahand://stores",
+   "dismissible": true,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "a42info",
+   "text": "Второе объявление: видно после скрытия первого",
+   "kind": "info",
+   "deeplink": "",
+   "dismissible": true,
+   "starts_at": null,
+   "ends_at": null
+  }
+ ]
 }
