@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 43,
- "updated_at": "2026-09-22T15:50:00.000Z",
+ "version": 44,
+ "updated_at": "2026-09-22T15:55:00.000Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -138,42 +138,51 @@
  },
  "promotions": [
   {
-   "id": "p43one",
-   "title": "ФОН 1 красная",
-   "subtitle": "после обновления",
+   "id": "p44a",
+   "title": "Летняя распродажа",
+   "subtitle": "закончилась",
    "image_url": "",
-   "deeplink": "megahand://categories",
-   "tint": "red",
-   "starts_at": null,
-   "ends_at": null
+   "deeplink": "megahand://feed?max_price=500",
+   "tint": "green",
+   "starts_at": "2026-06-01T00:00:00+03:00",
+   "ends_at": "2026-09-01T00:00:00+03:00"
   },
   {
-   "id": "p43two",
-   "title": "ФОН 2 со снимком",
-   "subtitle": "второй адрес",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
-   "deeplink": "megahand://feed?new=1",
-   "tint": "ink",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p43three",
-   "title": "ФОН 3 зелёная",
-   "subtitle": "третья",
+   "id": "p44b",
+   "title": "День города",
+   "subtitle": "один день",
    "image_url": "",
    "deeplink": "megahand://stores",
-   "tint": "green",
-   "starts_at": null,
-   "ends_at": null
+   "tint": "red",
+   "starts_at": "2026-08-30T00:00:00+03:00",
+   "ends_at": "2026-08-31T00:00:00+03:00"
+  },
+  {
+   "id": "p44c",
+   "title": "Ещё не началась",
+   "subtitle": "в декабре",
+   "image_url": "",
+   "deeplink": "megahand://categories",
+   "tint": "ink",
+   "starts_at": "2026-12-01T00:00:00+03:00",
+   "ends_at": "2026-12-31T00:00:00+03:00"
   }
  ],
  "announcements": [
   {
-   "id": "a43new",
-   "text": "ФОН: новое объявление приехало штатным опросом",
-   "kind": "sale",
-   "deeplink": "megahand://feed?new=1",
+   "id": "a42warn",
+   "text": "25 сентября магазин на Ленина закрыт на переучёт",
+   "kind": "warn",
+   "deeplink": "megahand://stores",
+   "dismissible": true,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "a44zhivoe",
+   "text": "Третье объявление: скрытое первым не вернулось",
+   "kind": "info",
+   "deeplink": "",
    "dismissible": true,
    "starts_at": null,
    "ends_at": null
