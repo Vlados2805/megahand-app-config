@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 52,
- "updated_at": "2026-09-22T15:55:00.000Z",
+ "version": 53,
+ "updated_at": "2026-09-22T16:05:00.000Z",
  "features": {
   "stores": true,
   "favorites": true,
@@ -70,12 +70,6 @@
     "type": "promos"
    },
    {
-    "type": "product",
-    "product_id": "30113",
-    "title": "Вещь дня",
-    "subtitle": "повторная приёмка"
-   },
-   {
     "type": "my_store"
    },
    {
@@ -84,13 +78,6 @@
    {
     "type": "shelf",
     "id": "new"
-   },
-   {
-    "type": "picks",
-    "id": "povtor",
-    "title": "Порядок владельца",
-    "subtitle": "30090, 30081(продана), 30113, 30088, 30105, 30107",
-    "product_ids": "30090,30081,30113,30088,30105,30107"
    },
    {
     "type": "shelf",
@@ -121,71 +108,5 @@
  "badges": {
   "audience": true,
   "new": true
- },
- "cards": {
-  "photo_aspect": "3:4",
-  "photo_fit": "contain",
-  "photo_bg": "#F4F4F6",
-  "photo_pad": 8,
-  "photo_radius": "chip",
-  "title_lines": 2,
-  "meta": "size",
-  "show_old_price": true,
-  "show_discount": true,
-  "show_sku": true,
-  "show_heart": true,
-  "show_cart": true
- },
- "promotions": [
-  {
-   "id": "p44a",
-   "title": "Летняя распродажа",
-   "subtitle": "закончилась",
-   "image_url": "",
-   "deeplink": "megahand://feed?max_price=500",
-   "tint": "green",
-   "starts_at": "2026-06-01T00:00:00+03:00",
-   "ends_at": "2026-09-01T00:00:00+03:00"
-  },
-  {
-   "id": "p44b",
-   "title": "День города",
-   "subtitle": "один день",
-   "image_url": "",
-   "deeplink": "megahand://stores",
-   "tint": "red",
-   "starts_at": "2026-08-30T00:00:00+03:00",
-   "ends_at": "2026-08-31T00:00:00+03:00"
-  },
-  {
-   "id": "p44c",
-   "title": "Ещё не началась",
-   "subtitle": "в декабре",
-   "image_url": "",
-   "deeplink": "megahand://categories",
-   "tint": "ink",
-   "starts_at": "2026-12-01T00:00:00+03:00",
-   "ends_at": "2026-12-31T00:00:00+03:00"
-  }
- ],
- "announcements": [
-  {
-   "id": "a42warn",
-   "text": "25 сентября магазин на Ленина закрыт на переучёт",
-   "kind": "warn",
-   "deeplink": "megahand://stores",
-   "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "a44zhivoe",
-   "text": "Третье объявление: скрытое первым не вернулось",
-   "kind": "info",
-   "deeplink": "",
-   "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
-  }
- ]
+ }
 }
