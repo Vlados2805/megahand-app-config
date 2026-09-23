@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 11,
-  "updated_at": "2026-08-25T14:46:31.832Z",
+  "version": 12,
+  "updated_at": "2026-09-23T06:12:47.939Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -14,14 +14,18 @@
       "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
       "title": "Осенний завоз",
       "deeplink": "megahand://categories",
-      "placement": "carousel"
+      "placement": "carousel",
+      "starts_at": null,
+      "ends_at": null
     },
     {
       "id": "bmt8s2uw5c0ht",
       "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
       "title": "От 500",
       "deeplink": "megahand://feed?new=1&max_price=500",
-      "placement": "carousel"
+      "placement": "carousel",
+      "starts_at": null,
+      "ends_at": null
     }
   ],
   "push": [
@@ -64,9 +68,6 @@
   "home": {
     "blocks": [
       {
-        "type": "banners"
-      },
-      {
         "type": "promos"
       },
       {
@@ -108,5 +109,7 @@
   "badges": {
     "audience": true,
     "new": true
-  }
+  },
+  "promotions": [],
+  "announcements": []
 }
