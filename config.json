@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 63,
- "updated_at": "2026-09-22T21:10:00Z",
+ "version": 64,
+ "updated_at": "2026-09-24T19:00:00+03:00",
  "features": {
   "stores": true,
   "favorites": true,
@@ -45,7 +45,9 @@
     "type": "product",
     "product_id": "30113",
     "title": "Вещь дня",
-    "subtitle": "повторная приёмка"
+    "subtitle": "сегодня дешевле",
+    "template": "neon",
+    "ends_at": "2026-09-30T23:59:00+03:00"
    },
    {
     "type": "my_store"
@@ -110,62 +112,68 @@
  },
  "promotions": [
   {
-   "id": "p58dve",
-   "title": "СУББОТА −50 % НА ВСЁ ДО!",
-   "subtitle": "",
+   "id": "vnew",
+   "title": "Новинки",
+   "subtitle": "свежий завоз",
    "image_url": "",
    "deeplink": "megahand://feed?new=1",
    "tint": "blue",
+   "icon": "hanger",
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "p58odna",
-   "title": "СУББОТА −50 % НА ВСЁ ДО!",
-   "subtitle": "с подписью строка одна",
+   "id": "v500",
+   "title": "До 500 ₽",
+   "subtitle": "выгодные вещи",
    "image_url": "",
    "deeplink": "megahand://feed?max_price=500",
    "tint": "yellow",
+   "icon": "tag",
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "p58foto",
-   "title": "Осенний завоз недели!!",
-   "subtitle": "",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "deeplink": "megahand://feed?max_price=500",
-   "tint": "blue",
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "p58bezssylki",
-   "title": "Скоро, готовим",
-   "subtitle": "",
+   "id": "vsk",
+   "title": "Скидки",
+   "subtitle": "в магазинах",
    "image_url": "",
-   "deeplink": "",
+   "deeplink": "megahand://stores",
    "tint": "green",
+   "icon": "store",
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "p58red",
-   "title": "4 красная",
-   "subtitle": "пара скидки",
+   "id": "vsub",
+   "title": "Суббота −50 %",
+   "subtitle": "во всех магазинах",
    "image_url": "",
-   "deeplink": "megahand://categories",
+   "deeplink": "megahand://stores",
    "tint": "red",
+   "icon": "percent",
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "p58ink",
-   "title": "5 тёмная",
-   "subtitle": "пятый тинт",
+   "id": "vzav",
+   "title": "Новый завоз",
+   "subtitle": "по пятницам",
    "image_url": "",
    "deeplink": "megahand://feed?new=1",
    "tint": "ink",
+   "icon": "truck",
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "vdl",
+   "title": "Распродажа зимней обуви",
+   "subtitle": "только до воскресенья включительно",
+   "image_url": "",
+   "deeplink": "megahand://feed?new=1",
+   "tint": "blue",
+   "icon": "",
    "starts_at": null,
    "ends_at": null
   }
