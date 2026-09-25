@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 13,
-  "updated_at": "2026-09-23T06:45:49.622Z",
+  "version": 14,
+  "updated_at": "2026-09-25T06:30:54.786Z",
   "features": {
     "stores": true,
     "favorites": true,
@@ -86,6 +86,15 @@
       {
         "type": "shelf",
         "id": "cheap"
+      },
+      {
+        "type": "product",
+        "product_id": "188833",
+        "title": "Вещь дня",
+        "subtitle": "ВАУ",
+        "template": "sign",
+        "starts_at": "2026-09-25T09:29:00+03:00",
+        "ends_at": "2026-09-26T00:00:00+03:00"
       },
       {
         "type": "feed"
