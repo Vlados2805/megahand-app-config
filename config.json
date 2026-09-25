@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 64,
- "updated_at": "2026-09-24T19:00:00+03:00",
+ "version": 65,
+ "updated_at": "2026-09-25T09:45:00+03:00",
  "features": {
   "stores": true,
   "favorites": true,
@@ -178,24 +178,5 @@
    "ends_at": null
   }
  ],
- "announcements": [
-  {
-   "id": "a58warn",
-   "text": "25 сентября магазин на Ленина закрыт на переучёт",
-   "kind": "warn",
-   "deeplink": "megahand://stores",
-   "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "a58info",
-   "text": "Второе объявление: видно после скрытия первого",
-   "kind": "info",
-   "deeplink": "",
-   "dismissible": true,
-   "starts_at": null,
-   "ends_at": null
-  }
- ]
+ "announcements": []
 }
