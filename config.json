@@ -1,130 +1,136 @@
 {
- "schema": 1,
- "version": 66,
- "updated_at": "2026-10-02T21:02:08+03:00",
- "features": {
-  "stores": true,
-  "favorites": true,
-  "notifications": true,
-  "banners": true
- },
- "banners": [
-  {
-   "id": "bmt8s1r814h8a",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
-   "title": "Осенний завоз",
-   "deeplink": "megahand://categories",
-   "placement": "carousel",
-   "starts_at": null,
-   "ends_at": null
+  "schema": 1,
+  "version": 67,
+  "updated_at": "2026-10-02T21:02:08+03:00",
+  "features": {
+    "stores": true,
+    "favorites": true,
+    "notifications": true,
+    "banners": true
   },
-  {
-   "id": "bmt8s2uw5c0ht",
-   "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
-   "title": "От 500",
-   "deeplink": "megahand://feed?new=1&max_price=500",
-   "placement": "carousel",
-   "starts_at": null,
-   "ends_at": null
+  "banners": [
+    {
+      "id": "bmt8s1r814h8a",
+      "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-59e60899.jpg",
+      "title": "Осенний завоз",
+      "deeplink": "megahand://categories",
+      "placement": "carousel",
+      "starts_at": null,
+      "ends_at": null
+    },
+    {
+      "id": "bmt8s2uw5c0ht",
+      "image_url": "https://s3.twcstorage.ru/megahand-storage/app/banners/20260825-3069c5af.jpg",
+      "title": "От 500",
+      "deeplink": "megahand://feed?new=1&max_price=500",
+      "placement": "carousel",
+      "starts_at": null,
+      "ends_at": null
+    }
+  ],
+  "push": [
+    {
+      "id": "p1787630668745",
+      "title": "Привет, спишь?",
+      "body": "У нас тут первый пуш в приложении 😏",
+      "deeplink": "",
+      "published_at": "2026-08-25T04:04:28.745Z"
+    },
+    {
+      "id": "p1787629513742",
+      "title": "111",
+      "body": "111",
+      "deeplink": "megahand://home",
+      "published_at": "2026-08-25T03:45:13.742Z"
+    },
+    {
+      "id": "p1787629316921",
+      "title": "Привет, спишь?",
+      "body": "У нас новый завоз) вперед😏",
+      "deeplink": "",
+      "published_at": "2026-08-25T03:41:56.921Z"
+    },
+    {
+      "id": "p-2026-08-24-night-test",
+      "title": "Тест канала 0.9",
+      "body": "Если вы видите это уведомление — канал работает",
+      "deeplink": "",
+      "published_at": "2026-08-23T21:08:42.000Z"
+    },
+    {
+      "id": "p-2026-08-24-home",
+      "title": "В приложении появилась Главная",
+      "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
+      "deeplink": "megahand://home",
+      "published_at": "2026-08-23T22:35:22.000Z"
+    }
+  ],
+  "home": {
+    "blocks": [
+      {
+        "type": "promos"
+      },
+      {
+        "type": "my_store"
+      },
+      {
+        "type": "banners"
+      },
+      {
+        "type": "categories"
+      },
+      {
+        "type": "shelf",
+        "id": "new"
+      },
+      {
+        "type": "shelf",
+        "id": "cheap"
+      },
+      {
+        "type": "product",
+        "product_id": "188833",
+        "title": "Вещь дня",
+        "subtitle": "ВАУ",
+        "template": "sign",
+        "starts_at": "2026-09-25T09:29:00+03:00",
+        "ends_at": "2026-09-26T00:00:00+03:00"
+      },
+      {
+        "type": "feed"
+      }
+    ]
+  },
+  "feeds": [
+    {
+      "id": "all",
+      "title": "Все",
+      "deeplink": ""
+    },
+    {
+      "id": "new",
+      "title": "Новинки",
+      "deeplink": "megahand://feed?new=1"
+    },
+    {
+      "id": "cheap",
+      "title": "До 500 ₽",
+      "deeplink": "megahand://feed?max_price=500"
+    }
+  ],
+  "badges": {
+    "audience": true,
+    "new": true
+  },
+  "promotions": [],
+  "announcements": [],
+  "cards": {
+    "photo_aspect": "1:1"
+  },
+  "min_build": {
+    "ios": 56
+  },
+  "update_url": {
+    "ios": "https://apps.apple.com/app/id1234567890"
   }
- ],
- "push": [
-  {
-   "id": "p1787630668745",
-   "title": "Привет, спишь?",
-   "body": "У нас тут первый пуш в приложении 😏",
-   "deeplink": "",
-   "published_at": "2026-08-25T04:04:28.745Z"
-  },
-  {
-   "id": "p1787629513742",
-   "title": "111",
-   "body": "111",
-   "deeplink": "megahand://home",
-   "published_at": "2026-08-25T03:45:13.742Z"
-  },
-  {
-   "id": "p1787629316921",
-   "title": "Привет, спишь?",
-   "body": "У нас новый завоз) вперед😏",
-   "deeplink": "",
-   "published_at": "2026-08-25T03:41:56.921Z"
-  },
-  {
-   "id": "p-2026-08-24-night-test",
-   "title": "Тест канала 0.9",
-   "body": "Если вы видите это уведомление — канал работает",
-   "deeplink": "",
-   "published_at": "2026-08-23T21:08:42.000Z"
-  },
-  {
-   "id": "p-2026-08-24-home",
-   "title": "В приложении появилась Главная",
-   "body": "Баннеры, подборки и поиск теперь на первом экране. Откройте и посмотрите.",
-   "deeplink": "megahand://home",
-   "published_at": "2026-08-23T22:35:22.000Z"
-  }
- ],
- "home": {
-  "blocks": [
-   {
-    "type": "promos"
-   },
-   {
-    "type": "my_store"
-   },
-   {
-    "type": "banners"
-   },
-   {
-    "type": "categories"
-   },
-   {
-    "type": "shelf",
-    "id": "new"
-   },
-   {
-    "type": "shelf",
-    "id": "cheap"
-   },
-   {
-    "type": "product",
-    "product_id": "188833",
-    "title": "Вещь дня",
-    "subtitle": "ВАУ",
-    "template": "sign",
-    "starts_at": "2026-09-25T09:29:00+03:00",
-    "ends_at": "2026-09-26T00:00:00+03:00"
-   },
-   {
-    "type": "feed"
-   }
-  ]
- },
- "feeds": [
-  {
-   "id": "all",
-   "title": "Все",
-   "deeplink": ""
-  },
-  {
-   "id": "new",
-   "title": "Новинки",
-   "deeplink": "megahand://feed?new=1"
-  },
-  {
-   "id": "cheap",
-   "title": "До 500 ₽",
-   "deeplink": "megahand://feed?max_price=500"
-  }
- ],
- "badges": {
-  "audience": true,
-  "new": true
- },
- "promotions": [],
- "announcements": [],
- "cards": {
-  "photo_aspect": "1:1"
- }
 }
