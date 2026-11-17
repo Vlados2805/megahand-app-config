@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 69,
+  "version": 70,
   "updated_at": "2026-10-02T21:02:08+03:00",
   "features": {
     "stores": true,
@@ -126,11 +126,5 @@
   "announcements": [],
   "cards": {
     "photo_aspect": "1:1"
-  },
-  "min_build": {
-    "ios": 56
-  },
-  "update_url": {
-    "ios": "https://apps.apple.com/app/id1234567890"
   }
 }
